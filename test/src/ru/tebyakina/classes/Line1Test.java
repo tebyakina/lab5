@@ -13,6 +13,7 @@ public class Line1Test {
     @Test
     public void testGetDistanceToCenter() {
         System.out.println("getDistanceToCenter");
+        assertEquals(1.0, new Line1(1).getDistanceToCenter(), 0.0);
         assertEquals(2.0, new Line1(2).getDistanceToCenter(), 0.0);
         assertEquals(3.0, new Line1(3).getDistanceToCenter(), 0.0);
         assertEquals(4.0, new Line1(4).getDistanceToCenter(), 0.0);
