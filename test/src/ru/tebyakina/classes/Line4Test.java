@@ -7,14 +7,7 @@ import static org.junit.Assert.*;
  * @author fox
  */
 public class Line4Test {
-    /**
-     * Тест метода getDistanceToCenter класса Line4.
-     */
-    @Test
-    public void testGetDistanceToCenter() {
-        System.out.println("getDistanceToCenter");
-        assertEquals(-1.0, new Line4(1,2,3,4).getDistanceToCenter(), 0.0);
-    }
+
 
     /**
      * Тест метода getY класса Line4.

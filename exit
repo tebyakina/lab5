@@ -1,0 +1,72 @@
+[1mdiff --git a/test/src/ru/tebyakina/classes/Line1Test.java b/test/src/ru/tebyakina/classes/Line1Test.java[m
+[1mindex a95472d..2e37ab0 100644[m
+[1m--- a/test/src/ru/tebyakina/classes/Line1Test.java[m
+[1m+++ b/test/src/ru/tebyakina/classes/Line1Test.java[m
+[36m@@ -13,7 +13,6 @@[m [mpublic class Line1Test {[m
+     @Test[m
+     public void testGetDistanceToCenter() {[m
+         System.out.println("getDistanceToCenter");[m
+[31m-        assertEquals(1.0, new Line1(1).getDistanceToCenter(), 0.0);[m
+         assertEquals(2.0, new Line1(2).getDistanceToCenter(), 0.0);[m
+         assertEquals(3.0, new Line1(3).getDistanceToCenter(), 0.0);[m
+         assertEquals(4.0, new Line1(4).getDistanceToCenter(), 0.0);[m
+[1mdiff --git a/test/src/ru/tebyakina/classes/Line2Test.java b/test/src/ru/tebyakina/classes/Line2Test.java[m
+[1mindex 70b859c..1f38fcc 100644[m
+[1m--- a/test/src/ru/tebyakina/classes/Line2Test.java[m
+[1m+++ b/test/src/ru/tebyakina/classes/Line2Test.java[m
+[36m@@ -7,14 +7,7 @@[m [mimport static org.junit.Assert.*;[m
+  * @author fox[m
+  */[m
+ public class Line2Test {[m
+[31m-    /**[m
+[31m-     * Тест метода getDistanceToCenter класса Line2.[m
+[31m-     */[m
+[31m-    @Test[m
+[31m-    public void testGetDistanceToCenter() {[m
+[31m-        System.out.println("getDistanceToCenter");[m
+[31m-        assertEquals(-1.0, new Line2(1,2).getDistanceToCenter(), 0.0);[m
+[31m-    }[m
+[32m+[m
+ [m
+     /**[m
+      * Тест метода getY класса Line2.[m
+[1mdiff --git a/test/src/ru/tebyakina/classes/Line3Test.java b/test/src/ru/tebyakina/classes/Line3Test.java[m
+[1mindex f716ab7..804b596 100644[m
+[1m--- a/test/src/ru/tebyakina/classes/Line3Test.java[m
+[1m+++ b/test/src/ru/tebyakina/classes/Line3Test.java[m
+[36m@@ -7,14 +7,7 @@[m [mimport static org.junit.Assert.*;[m
+  * @author fox[m
+  */[m
+ public class Line3Test {[m
+[31m-    /**[m
+[31m-     * Тест метода getDistanceToCenter класса Line3.[m
+[31m-     */[m
+[31m-    @Test[m
+[31m-    public void testGetDistanceToCenter() {[m
+[31m-        System.out.println("getDistanceToCenter");[m
+[31m-        assertEquals(-1.0, new Line3(1,2,1).getDistanceToCenter(), 0.0);[m
+[31m-    }[m
+[32m+[m
+ [m
+     /**[m
+      * Тест метода getY класса Line3.[m
+[1mdiff --git a/test/src/ru/tebyakina/classes/Line4Test.java b/test/src/ru/tebyakina/classes/Line4Test.java[m
+[1mindex 967c937..958b504 100644[m
+[1m--- a/test/src/ru/tebyakina/classes/Line4Test.java[m
+[1m+++ b/test/src/ru/tebyakina/classes/Line4Test.java[m
+[36m@@ -7,14 +7,7 @@[m [mimport static org.junit.Assert.*;[m
+  * @author fox[m
+  */[m
+ public class Line4Test {[m
+[31m-    /**[m
+[31m-     * Тест метода getDistanceToCenter класса Line4.[m
+[31m-     */[m
+[31m-    @Test[m
+[31m-    public void testGetDistanceToCenter() {[m
+[31m-        System.out.println("getDistanceToCenter");[m
+[31m-        assertEquals(-1.0, new Line4(1,2,3,4).getDistanceToCenter(), 0.0);[m
+[31m-    }[m
+[32m+[m
+ [m
+     /**[m
+      * Тест метода getY класса Line4.[m

@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
  * @author fox
  */
 public class Line2Test {
-    /**
+     /**
      * Тест метода getDistanceToCenter класса Line2.
      */
     @Test
